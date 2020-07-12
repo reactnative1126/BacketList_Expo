@@ -1,0 +1,46 @@
+ 
+{
+  "expo": {
+    "name": "Blank Template",
+    "slug": "BucketList",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.bucketlist.app",
+      "supportsTablet": true,
+      "buildNumber": "1.0.0",
+      "config": {
+        "googleMapsApiKey": "AIzaSyBqh6uco7iZCh-FOBKWzPxxHAkTpBEtdFI"
+      }
+    },
+    "android": {
+      "package": "com.bucketlist.app",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBqh6uco7iZCh-FOBKWzPxxHAkTpBEtdFI"
+        }
+      },
+      "versionCode": 1
+    },
+    "description": ""
+  }
+}
